@@ -1,10 +1,3 @@
-#This code is essentially wrote using selenium and python with time module. Don't forget to get the browser Driver and store in the directory
-#where you have this code or you will need to modify the path. 
-# pip install selenium --> for installing selenium
-# I had problems with using selenium with chromium so check this for webdriver manager-- >  https://github.com/bonigarcia/webdrivermanager
-# also google didn't allow me to login because i was using selenium, so if you cant login. close the opened tab. go to gmail and 
-# login manually with your username and password and send 2-4 emails from the selenium browser. It will be verified then. thatss what worked for me.
-
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
