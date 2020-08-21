@@ -74,7 +74,7 @@ def gmail_login():
 
 # Conditions which checks the time and goes to the classlink if Classes are happening at that time.
 
-# Math Class --> Link Conf.
+# Math
 if current_time == "09:50 / Monday" or current_time == "16:50 / Tuesday" or current_time == "13:50 / Thursday" or current_time == "15:20 / Friday":
     #sub is the class id with the meet link. sub changes with the time accoriding to the class.
     sub = "###hangouts meet links here with time variations###"
@@ -83,42 +83,42 @@ if current_time == "09:50 / Monday" or current_time == "16:50 / Tuesday" or curr
     gmail_login()
     
 
-# Physics  //not conf.,,,###########
+# Physics 
 elif current_time == "13:50 / Monday" or current_time == "16:50 / Wednesday":
     sub = " ###hangouts meet links here with time variations###"
     driver = webdriver.Chrome(chrome_options=opt, executable_path=r'chromedriver')
     gmail_login()
     
 
-# Nepali --> Link Conf.
+# Nepali 
 elif current_time == "15:20 / Monday" or current_time == "16:50 / Thursday" :
     sub = "###hangouts meet links here with time variations###"
     driver = webdriver.Chrome(chrome_options=opt, executable_path=r'chromedriver')
     gmail_login()
     
 
-#Chemistry RDP -->Link Conf.
+#Chemistry 1
 elif current_time == "16:50 / Monday" or current_time == "15:20 / Wednesday":
     sub = "###hangouts meet links here with time variations###"
     driver = webdriver.Chrome(chrome_options=opt, executable_path=r'chromedriver')
     gmail_login()
     
 
-#Chemistry SM ---> Link Conf.
+#Chemistry 2
 elif current_time == "13:52 / Tuesday" or current_time == "16:50 / Friday":
     sub = "###hangouts meet links here with time variations###"
     driver = webdriver.Chrome(chrome_options=opt, executable_path=r'chromedriver')
     gmail_login()
     
 
-# English --> Link Conf.
+# English 
 elif current_time == "15:20 / Tuesday" or current_time == "13:50 / Friday":
     sub = "###hangouts meet links here with time variations###"
     driver = webdriver.Chrome(chrome_options=opt, executable_path=r'chromedriver')
     gmail_login()
     
 
-# Physics MR -->Link Conf.
+# Physics 2
 elif current_time == "13:50 / Wednesday" or current_time == "15:20 / Thursday":
     sub = "###hangouts meet links here with time variations###"
     driver = webdriver.Chrome(chrome_options=opt, executable_path=r'chromedriver')
