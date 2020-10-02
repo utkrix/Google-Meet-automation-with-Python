@@ -10,4 +10,6 @@
 
 > `pip install -r requirements.txt` 
 
+### A  config.json file is used to store passwords, rather than hardcoding the password in the code.
+
 ## You should change the meeting links and time according to your needs from the  ` main.py ` file.
